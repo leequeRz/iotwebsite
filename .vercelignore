@@ -1,0 +1,24 @@
+# Ignore backend folder
+backend/
+
+# Ignore node_modules (will be installed during build)
+node_modules/
+
+# Ignore development files
+*.log
+.env.local
+.env.development
+.DS_Store
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore brain artifacts
+.gemini/
